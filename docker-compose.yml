@@ -6,6 +6,7 @@ services:
     container_name: streamlit
     build:
       context: .
+      dockerfile: Dockerfile
     image: dceoy/streamlit:latest
     ports:
       - 8501:8501
